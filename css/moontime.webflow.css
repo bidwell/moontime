@@ -1,0 +1,533 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1 {
+  display: inline-block;
+  margin: 169px 0px 11px 45px;
+  padding: 15px 20px;
+  background-color: rgba(0, 0, 0, 0.49);
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #deae10;
+  font-size: 43px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  display: inline-block;
+  margin: 254px 0px 10px;
+  padding: 9px 13px;
+  background-color: rgba(0, 0, 0, 0.49);
+  color: white;
+  font-size: 49px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin-right: 0px;
+  margin-left: 0px;
+  font-family: Oswald, sans-serif;
+  color: #e8d3d3;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+}
+h4 {
+  margin-right: 0px;
+  margin-bottom: 6px;
+  margin-left: 0px;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  color: #e32d2d;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  text-shadow: none;
+}
+h5 {
+  margin-right: 0px;
+  margin-left: 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 15px;
+  color: #eddddd;
+  font-size: 14px;
+}
+.button {
+  display: inline-block;
+  padding: 12px 31px;
+  border-radius: 5px;
+  background-color: black;
+  background-image: none;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #008cff;
+}
+.section {
+  padding-top: 43px;
+  padding-bottom: 43px;
+  background-color: #403232;
+}
+.section.header {
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  background-color: #333;
+}
+.section.grey {
+  background-color: #f2f2f2;
+}
+.nav-link {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 10px 14px;
+  border-radius: 5px;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: none;
+}
+.nav-link:hover {
+  background-color: #969696;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.nav-link.sign-up {
+  background-color: #008cff;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.nav-link:hover.sign-up:hover {
+  background-color: #0076d6;
+}
+.company-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: none;
+}
+.nav-bar {
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: right;
+}
+.hero-bg {
+  width: auto;
+  padding-top: 33px;
+  padding-right: 1px;
+  padding-bottom: 33px;
+  background-image: url(../images/Beer-taps-at-Henrys-Tavern-in-Plano_174559.png);
+  background-position: 0px 55%;
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+}
+.subtitle {
+  margin-bottom: 18px;
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 16px;
+  font-weight: 700;
+}
+.section-description {
+  font-size: 14px;
+}
+.snippet {
+  display: block;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  color: black;
+  text-decoration: none;
+}
+.snippet:hover {
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.right-col {
+  padding-top: 13px;
+  text-align: right;
+}
+.more-link {
+  padding: 6px 8px;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: #9c9c9c;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.more-link:hover {
+  border: 1px solid #008cff;
+  background-color: #008cff;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: white;
+}
+.snippet-text-section {
+  padding: 10px 12px;
+}
+.snippet-title {
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.snippet-text {
+  color: #737373;
+  font-size: 14px;
+  line-height: 19px;
+}
+.snippet-row {
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+.button-column {
+  padding-top: 32px;
+  text-align: center;
+}
+.company-column {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.img-example {
+  margin-bottom: 34px;
+}
+.footer-link {
+  margin-right: 9px;
+  margin-left: 9px;
+  color: #008cff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer-nav-bar {
+  text-align: right;
+}
+.footer-text {
+  font-size: 14px;
+}
+.content-bg {
+  padding-top: 39px;
+  padding-bottom: 39px;
+  background-color: lightgrey;
+  background-image: url(../images/kierans1_1.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.content-bg.two {
+  background-image: url(../images/example-bg.png);
+}
+.example-image {
+  width: 100%;
+}
+.logoimage {
+  float: left;
+}
+.topbar {
+  font-family: Montserrat, sans-serif;
+  color: #e6cccc;
+  font-size: 20px;
+}
+.phone {
+  float: left;
+}
+.adress {
+  float: right;
+  font-size: 18px;
+}
+.story {
+  margin-bottom: 46px;
+  font-family:'Open Sans', sans-serif;
+  color: #e3cfcf;
+  font-style: normal;
+  font-weight: 400;
+}
+.minilogo {
+  display: block;
+  height: 179px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 19px;
+  direction: ltr;
+  text-align: center;
+}
+.minilogo.menu {
+  height: 179px;
+  padding: 23px;
+}
+.minilogo.live {
+  height: 179px;
+  padding: 9px;
+}
+.minilogo.food1 {
+  height: auto;
+}
+.minilogo.food2 {
+  height: auto;
+}
+.minilogo.food3 {
+  height: auto;
+}
+.midcolumn {
+  background-color: #291c1c;
+}
+.col1 {
+  padding-right: 9px;
+  padding-left: 9px;
+}
+.midcol1 {
+  padding-right: 0px;
+  background-color: #4f4848;
+  -webkit-transition: all 228ms ease-in;
+  -o-transition: all 228ms ease-in;
+  transition: all 228ms ease-in;
+}
+.midcol1:hover {
+  background-color: #635a5a;
+}
+.thursday {
+  margin-top: 8px;
+  margin-left: 35px;
+  color: #f5e9e9;
+  font-size: 37px;
+}
+.informed {
+  color: #080606;
+}
+.specials {
+  padding-left: 22px;
+}
+.specials.fusilli {
+  float: none;
+}
+.meat {
+  display: block;
+  margin-right: auto;
+  margin-left: 67px;
+  float: left;
+}
+@media (max-width: 991px) {
+  .button {
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .nav-link {
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .hero-bg {
+    background-image: url(../images/Beer-taps-at-Henrys-Tavern-in-Plano_174559.png);
+  }
+  .snippet {
+    -webkit-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  .content-bg {
+    background-image: url(../images/kierans1_1.JPG);
+    background-position: 61% 0px;
+  }
+  .content-bg.two {
+    background-image: url(../images/example-bg.png);
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    margin-top: 34px;
+    margin-left: 23px;
+  }
+  h2 {
+    margin-top: 107px;
+  }
+  h3 {
+    margin-left: 17px;
+  }
+  h4 {
+    margin-top: 18px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .button {
+    margin-top: -16px;
+    margin-bottom: -9px;
+    padding: 21px 30px;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .section {
+    padding-left: 0px;
+  }
+  .section.header {
+    background-color: #333;
+  }
+  .section.grey {
+    padding-top: 0px;
+    padding-bottom: 7px;
+  }
+  .nav-link {
+    background-color: #6b6b6b;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .nav-link:hover {
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .company-title {
+    margin-bottom: 33px;
+  }
+  .nav-bar {
+    text-align: center;
+  }
+  .hero-bg {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-image: url(../images/Beer-taps-at-Henrys-Tavern-in-Plano_174559.png);
+  }
+  .snippet {
+    margin-bottom: 19px;
+  }
+  .right-col {
+    margin-top: -42px;
+  }
+  .button-column {
+    padding-top: 61px;
+  }
+  .company-column {
+    text-align: center;
+  }
+  .footer-nav-bar {
+    text-align: center;
+  }
+  .left-footer-col {
+    margin-bottom: 13px;
+    text-align: center;
+  }
+  .content-bg {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-image: url(../images/kierans1_1.JPG);
+  }
+  .logoimage {
+    display: block;
+    margin-right: auto;
+    margin-left: 70px;
+  }
+  .story {
+    padding-left: 20px;
+    text-align: left;
+  }
+  .midcol1 {
+    -webkit-transition: all 228ms ease-in;
+    -o-transition: all 228ms ease-in;
+    transition: all 228ms ease-in;
+  }
+  .meat {
+    margin-left: 126px;
+  }
+}
+@media (max-width: 479px) {
+  h1 {
+    margin-left: 2px;
+    font-size: 36px;
+    text-align: center;
+  }
+  h2 {
+    line-height: 46px;
+  }
+  .button {
+    margin-bottom: 19px;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .section.header {
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+  }
+  .nav-link {
+    display: block;
+    margin-bottom: 19px;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .hero-bg {
+    background-image: url(../images/Beer-taps-at-Henrys-Tavern-in-Plano_174559.png);
+  }
+  .section-description {
+    width: 50%;
+  }
+  .button-column {
+    padding-top: 19px;
+  }
+  .content-bg {
+    min-height: 330px;
+    background-image: url(../images/kierans1_1.JPG);
+  }
+  .logoimage {
+    margin-left: auto;
+  }
+  .thursday {
+    line-height: 31px;
+  }
+  .meat {
+    margin-left: 6px;
+  }
+}
